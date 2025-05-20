@@ -1,6 +1,11 @@
+'use client';
 import { Suspense } from "react"
-import IPLocationMap from "@/components/ip-location-map"
 import LoadingState from "@/components/loading-state"
+import dynamic from "next/dynamic"
+
+const IPLocationMap = dynamic(() => import("@/components/ip-location-map"), {
+  ssr: false,
+})
 
 export default function Home() {
   return (

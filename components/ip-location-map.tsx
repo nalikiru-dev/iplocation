@@ -112,7 +112,7 @@ export default function IPLocationMap() {
             className="rounded-lg z-0"
           >
             <TileLayer
-              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+              attribution='&copy; <a href="https://www.openstreetmap.org/copyright"></a> contributors'
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
             <Marker position={[ipData.latitude, ipData.longitude]} icon={customIcon}>
