@@ -13,7 +13,6 @@ Welcome to **IP Location Tracker** – an innovative, cutting-edge tool for trac
 - [Technology Stack](#technology-stack)
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
 - [Contributing](#contributing)
 - [Contact](#contact)
 
@@ -86,11 +85,6 @@ IP Location Tracker is a powerful web application enabling you to trace IP addre
 
 ---
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
 
 ## Contributing
 
